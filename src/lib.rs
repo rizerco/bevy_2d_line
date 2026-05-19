@@ -1,5 +1,6 @@
 use bevy::{
     asset::embedded_asset,
+    platform::collections::HashMap,
     prelude::*,
     render::{
         mesh::{
@@ -15,7 +16,6 @@ use bevy::{
         Extract, RenderApp,
     },
     sprite::{Material2d, Material2dKey, Material2dPlugin},
-    utils::HashMap,
 };
 
 pub struct LineRenderingPlugin;
